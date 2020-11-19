@@ -1,0 +1,96 @@
+** No available env.conf file
+ 
+***************************************************************
+START WEBSOCKET SERVER @ port:8060 Thu Nov 19 10:49:13 PHT 2020
+***************************************************************
+***************************************************************
+START WEBSOCKET SERVER @ port:8061 Thu Nov 19 10:49:13 PHT 2020
+***************************************************************
+***************************************************************
+  STARTING ANUBIS CMS WEB SERVER 
+***************************************************************
+ context : /
+ rundir  : /home/salvador/apps/etracs255-server-salvador/bin
+ basedir : /home/salvador/apps/etracs255-server-salvador
+ svrdir  : /home/salvador/apps/etracs255-server-salvador
+ anubis-workspace : file:////home/salvador/apps/etracs255-server-salvador/workspace/web
+
+***************************************************************
+START OSIRIS 3 TRANSACTION SERVER @ port:8070Thu Nov 19 10:49:13 PHT 2020
+***************************************************************
+********************************************************************************
+  STARTING AnubisResourceServer (resources @ 8081)
+     home.url=file:////home/salvador/apps/etracs255-server-salvador/workspace/web/resources
+********************************************************************************
+starting servers
+starting server context root @ file:////home/salvador/apps/etracs255-server-salvador/workspace/services
+Loading apps
+etracs25
+notification
+Channels not found because websocket.channels is not defined
+Channels not found because websocket.channels is not defined
+Server: anubis-web has started
+Server: resources has started
+Server: websocket has started.
+Server: websocket61 has started.
+Server: osiris3 has started
+*Datasource connection pool provider: tomcat.cp.TomcatCpDsProvider@7e9f5cc
+#######################################
+# TomcatCPDataSource datasource config:
+#######################################
+ driverClassName=com.mysql.jdbc.Driver
+ poolName=Tomcat Connection Pool[1-1069018579]
+ defaultCatalog=null
+ initSQL=null
+ abandonWhenPercentageFull=50
+ defaultTransactionIsolation=-1
+ initialSize=5
+ maxActive=100
+ minIdle=5
+ maxIdle=100
+ maxWait=30000
+ maxAge=-1
+ minEvictableIdleTimeMillis=60000
+ removeAbandonedTimeout=60
+ suspectTimeout=0
+ testOnBorrow=true
+ testOnConnect=false
+ testOnReturn=false
+ testWhileIdle=false
+ timeBetweenEvictionRunsMillis=30000
+ useDisposableConnectionFacade=true
+ useLock=false
+ useEquals=true
+ validationQuery=SELECT 1
+ validationInterval=30000
+ 
+ERROR EXECUTING TASK ->Connection cache not found
+#######################################
+# TomcatCPDataSource datasource config:
+#######################################
+ driverClassName=com.mysql.jdbc.Driver
+ poolName=Tomcat Connection Pool[3-1069018579]
+ defaultCatalog=null
+ initSQL=null
+ abandonWhenPercentageFull=50
+ defaultTransactionIsolation=-1
+ initialSize=5
+ maxActive=100
+ minIdle=5
+ maxIdle=100
+ maxWait=30000
+ maxAge=-1
+ minEvictableIdleTimeMillis=60000
+ removeAbandonedTimeout=60
+ suspectTimeout=0
+ testOnBorrow=true
+ testOnConnect=false
+ testOnReturn=false
+ testWhileIdle=false
+ timeBetweenEvictionRunsMillis=30000
+ useDisposableConnectionFacade=true
+ useLock=false
+ useEquals=true
+ validationQuery=SELECT 1
+ validationInterval=30000
+ 
