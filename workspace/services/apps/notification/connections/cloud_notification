@@ -2,4 +2,4 @@ provider=script
 app.host=${cloud.host}
 app.cluster=osiris3
 app.context=notification
-readTimeout=30000
+readTimeout=60000

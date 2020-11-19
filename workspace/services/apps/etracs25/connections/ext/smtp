@@ -1,0 +1,3 @@
+provider=email
+mail.smtp.host=localhost
+mail.from=${MAIL_RELAY_USER}

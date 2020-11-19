@@ -1,5 +1,5 @@
 dialect=mysql
 driverClass=com.mysql.jdbc.Driver
-url=jdbc:mysql://localhost/etracs255_salvador
-user=root
-pwd=masterkey
+url=jdbc:mysql://${db_server_host}/${db_etracs}
+user=${db_server_user}
+pwd=${db_server_pass}
