@@ -1,33 +1,25 @@
 <app>
 <env>
-	app.title=ETRACS 2.5 build 05 20201119 (Municipality of Salvador)
-	app.host=192.168.2.102:8070
+	app.title=ETRACS 2.5 build 05 20201119 (Municipality of )
+	app.host=localhost:8070
 	app.cluster=osiris3
 	app.context=etracs25
-	app.help=http://192.168.2.102:8080/help
+	app.help=http://localhost:8080/help
 	app.loader=com.rameses.osiris2.client.OsirisAppLoader
 	readTimeout=300000
 	connectionTimeout=5000
 	filemgmt.enabled=false
-	ws.host=192.168.2.102:8060
-	#res.host=192.168.2.102
+	ws.host=localhost:8060
+	#res.host=localhost
 	app.custom=custom
 	#report.custom=custom
-	socketio.host=192.168.2.102:7080
-	entity.app.host=192.168.2.102:8070
+	socketio.host=localhost:7080
+	entity.app.host=localhost:8070
 	entity.app.context=etracs25
 </env>
 <modules>
-
 	<!-- custom libraries -->
-	<module file="custom/lgu-salvador-certification.jar" version="1.0" />
-	<module file="custom/lgu-salvador-taxclearance.jar" version="1.01" />
-	<module file="custom/bpls-bill-report.jar" version="1.01" />
-	<module file="custom/gov-ldn-salvador-unified.jar" version="1.11" />
-	<module file="custom/gov-lgu-salvador.jar" version="1.11"/>
-	<module file="custom/gov-lgu-bpls.jar" version="1.11"/>
-	<module file="custom/gov-lgu-rptis-report.jar" version="1.11"/>
-
+	
 	<!-- 3rd party libs --> 
 	<module file="libs/commons-net-3.5.jar" version="1.01"/>
 	
