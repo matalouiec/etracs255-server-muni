@@ -1,6 +1,6 @@
 <app>
 <env>
-	app.title=ETRACS 2.5 build 05 20201119 (Municipality of )
+	app.title=ETRACS 2.5 build 05 20201119 (Municipality of Linamon)
 	app.host=localhost:8070
 	app.cluster=osiris3
 	app.context=etracs25
