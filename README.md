@@ -1,4 +1,4 @@
-# etracs255-server-muni
+# etracs255-server-lala
 ETRACS 2.5 Build 05
 
-Main repo for all etracs servers running in the Province of Lanao del Norte.
+Main repo for LGU Lala.
