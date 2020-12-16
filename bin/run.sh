@@ -10,7 +10,7 @@ BASE_DIR=`pwd`
 JAVA_HOME=~/apps/jdk1.6.0_45
 
 # set java options
-JAVA_OPTS="-Xms768m -Xmx2048m -Dosiris.run.dir=$RUN_DIR -Dosiris.base.dir=$BASE_DIR" 
+JAVA_OPTS="-Xms1024m -Xmx4096m -Dosiris.run.dir=$RUN_DIR -Dosiris.base.dir=$BASE_DIR" 
 
 # run java
 if [ "x$JAVA_HOME" = "x" ]; then

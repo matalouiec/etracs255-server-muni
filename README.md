@@ -1,4 +1,3 @@
-# etracs255-server-muni
-ETRACS 2.5 Build 05
+# ETRACS version 2.5 build 5 for Municipalities
 
-Main repo for all etracs servers running in the Province of Lanao del Norte.
+Main repository for ETRACS servers running in the Province of Lanao del Norte.
